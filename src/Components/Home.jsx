@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react'
 import axios from 'axios'
 import DestinationCard from './DestinationCard'
+import MainBanner from './MainBanner'
 
 const Home = () => {
   const [destinations, setDestinations] = useState([])
@@ -23,6 +24,7 @@ const Home = () => {
 
   return (
     <div>
+      <MainBanner/>
       {destinationsDisplay}
     </div>
   )
