@@ -1,0 +1,10 @@
+#detail-banner {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
